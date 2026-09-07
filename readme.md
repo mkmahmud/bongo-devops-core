@@ -64,3 +64,15 @@ index 0000000..e69de29
 * **Objective:** Maintain a clean, readable production commit history using squash merging.
 * **Status:** 🔄 Completed
 * **Steps Executed:** Checked out `feature/system-optimization` and simulated rapid iterative trial-and-error commits. Returned to `main` and condensed the fragmented commit chain into a singular, production-ready operational log via `git merge --squash`.
+
+
+### Task 09: The "Conflict Resolution" (Communication)
+* **Objective:** Trigger, isolate, and manually correct divergent code branches.
+* **Status:** 🔄 Completed
+* **Steps Executed:** Established overlapping updates on the identical index line of `optimization.txt` across `main` and `feature/conflict-branch`. Safely intercepted the resulting merge collision, manually excised conflict markers, unified the architectural intent, and logged the successful resolution commit.
+
+
+### Task 10: The "Time Machine" (Reflog Recovery)
+* **Objective:** Recover detached or orphaned data states following destructive reset operations.
+* **Status:** 🔄 Completed
+* **Steps Executed:** Committed `deployment.sh` and executed an intentional destructive `git reset --hard HEAD~1` command to wipe working directories. Utilized `git reflog` to track down the detached commit index pointer and successfully restored the file landscape back to active state.
