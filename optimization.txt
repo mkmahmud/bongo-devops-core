@@ -1,1 +1,1 @@
-Main Branch production-ready optimization text
+Main Branch production-ready optimization text and feature branch guidelines consolidated
