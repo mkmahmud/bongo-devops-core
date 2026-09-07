@@ -1,0 +1,4 @@
+vm.swappiness=10
+Initial baseline parameters
+Tweak cache settings
+Optimize memory allocation thresholds

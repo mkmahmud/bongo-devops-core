@@ -18,4 +18,49 @@ The goal of this track is to transition from a basic "coder" into a strategic **
 4. **Initial Commit:** Staged and logged the baseline file using Conventional Commits formatting: `chore: initial repository setup`.
 
 ---
- 
+
+### Task 02: The "Safe Space" (.gitignore)
+* **Objective:** Prevent sensitive infrastructure secrets from leaking into version control.
+* **Status:** 🔄 Completed
+* **Steps Executed:** Created a `.env` file containing mockup secrets and successfully isolated it from version control tracking by configuring a `.gitignore` baseline rule.
+
+### Task 03: The "Parallel Universe" (Branching)
+* **Objective:** Maintain production stability by isolating experimental updates.
+* **Status:** 🔄 Completed
+* **Steps Executed:** Isolated new work by branching into `feature/system-optimization`, committed `kernel_tuning.txt`, and verified state isolation upon returning to the `main` branch.
+
+
+### Task 04: The "Selective Memory" (Staging)
+* **Objective:** Practice atomic commits by staging and logging unrelated modifications independently.
+* **Status:** 🔄 Completed
+* **Steps Executed:** Generated `web_fix.conf` and `db_fix.conf`. Utilized intentional staging environments to isolate and commit the web patch ahead of tracking the database patch.
+
+### Task 05: The "Cloud Connection" (GitHub)
+* **Objective:** Bridge the localized Git engine with remote team-facing infrastructure.
+* **Status:** 🔄 Completed
+* **Steps Executed:** Established a tracking link to a remote GitHub repository container and cleanly pushed upstream logs from the `main` architecture.
+
+
+### Task 06: 
+
+commit ed951f0b97198163472c966daa8b98f65b0d99cd (HEAD -> main, origin/main)
+Author: mkmahmud <mahmudulhasanmk434@gmail.com>
+Date:   Mon Sep 7 19:50:26 2026 +0600
+
+    fix: apply database connectivity patch
+
+diff --git a/db_fix.conf b/db_fix.conf
+new file mode 100644
+index 0000000..e69de29
+
+
+### Task 07: The "Safety Net" (Context Switching)
+* **Objective:** Handle emergency context switches safely without losing uncommitted progress.
+* **Status:** 🔄 Completed
+* **Steps Executed:** Simulated ongoing workspace edits on `feature.py`, stashed changes securely using `git stash` to deploy an urgent hotfix patch on `main.py`, and cleanly restored the development state using `git stash pop`.
+
+
+### Task 08: The "Clean Merge" (Squash Workflow)
+* **Objective:** Maintain a clean, readable production commit history using squash merging.
+* **Status:** 🔄 Completed
+* **Steps Executed:** Checked out `feature/system-optimization` and simulated rapid iterative trial-and-error commits. Returned to `main` and condensed the fragmented commit chain into a singular, production-ready operational log via `git merge --squash`.
